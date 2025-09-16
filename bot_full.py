@@ -10,8 +10,8 @@ from telegram.ext import (
 from gtts import gTTS
 
 # 🔑 Загружаем токены
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-DEEPAI_API_KEY = os.getenv("DEEPAI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8269598789:AAFrhPCLji4-CwJlV0E4pDI8XBNrCeVxrE4")
+DEEPAI_API_KEY = os.getenv("3fe99229-4244-4ef6-92f5-7a6d4f66d8a0")
 
 # Функция общения с DeepAI
 def deepai_chat(prompt: str) -> str:
